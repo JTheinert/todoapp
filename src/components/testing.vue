@@ -1,0 +1,24 @@
+<template>
+  <div>
+    <span clss="count">{{ count }}</span>
+    <button @click="increment">Increment</button>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'Testing',
+  components: {},
+  data () {
+    return {
+      count: 0
+    }
+  },
+
+  methods: {
+    increment () {
+      this.count++
+    }
+  }
+}
+</script>
