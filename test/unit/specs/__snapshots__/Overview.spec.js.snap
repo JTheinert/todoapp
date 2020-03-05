@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overview.vue renders correctly 1`] = `
+<div>
+  <a
+    style="text-decoration: underline; color: rgb(36, 71, 185); margin-right: 20px; margin-left: 20px; border: 5px;"
+  >
+    Home
+  </a>
+   
+  <a
+    style="text-decoration: underline; color: rgb(36, 71, 185); margin-right: 20px; margin-left: 20px; border: 5px;"
+  >
+    Delete
+  </a>
+   
+  <a
+    style="text-decoration: underline; color: rgb(36, 71, 185); margin-right: 20px; margin-left: 20px; border: 5px;"
+  >
+    testing
+  </a>
+   
+  <input
+    class="todo-input"
+    id="1001"
+    placeholder="Todo Here!"
+    type="text"
+  />
+   
+  <div
+    class="filter"
+  >
+    <a
+      name="All1"
+      style="text-decoration: underline;"
+    >
+      All
+    </a>
+     
+    <a>
+      in Progress
+    </a>
+     
+    <a>
+      Done
+    </a>
+  </div>
+   
+  <div
+    class="todo-item"
+    id="0"
+  >
+    <div
+      class="todo-item-middle"
+    >
+      <div
+        class="todo-item-label"
+      >
+        <div
+          class="todo-item-title"
+        >
+          
+          cool
+        
+        </div>
+         
+        <!---->
+         
+        <!---->
+         
+        <p
+          class="teaser-text"
+        >
+          
+          
+        
+        </p>
+      </div>
+    </div>
+     
+    <div
+      class="todo-item-right"
+    >
+      <p
+        style="margin-right: 10px; display: flex; font-size: 15px; text-align: center; justify-content: center; align-items: center;"
+      >
+        
+        You can edit your todo with a just one click!
+      
+      </p>
+       
+      <button
+        class="delete-button"
+        id="0"
+      >
+        <img
+          class="image"
+          src="./assets/images2.png"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details.vue renders correctly 1`] = `
+<div>
+  <div
+    class="todo-item"
+    id="0"
+  >
+    <div
+      style="display: none;"
+    >
+      <div
+        class="todo-item-middle"
+      >
+        <div
+          class="todo-item-label"
+        >
+          <div
+            class="todo-item-title"
+          >
+            cool
+          </div>
+           
+          <!---->
+           
+          <div
+            class="status-item"
+          >
+            <p
+              class="done"
+            >
+              Done
+            </p>
+          </div>
+        </div>
+         
+        <div
+          style="display: none;"
+        >
+          <p
+            class="todo-description-edit"
+          >
+            Item NR. 0
+          </p>
+           
+          <input
+            class="todo-description-edit"
+            placeholder="Edit Description"
+            type="text"
+          />
+           
+          <div
+            class="todo-selection"
+          >
+            <div
+              class="todo-select"
+            >
+              <input
+                class="todo-selection-progress"
+                id="1"
+                name="inProgess"
+                type="radio"
+                value="1"
+              />
+               
+              <label
+                for="1"
+              >
+                in progress
+              </label>
+            </div>
+             
+            <div
+              class="todo-select"
+            >
+              <input
+                class="todo-selection-done"
+                id="2"
+                name="Done"
+                type="radio"
+                value="2"
+              />
+               
+              <label
+                for="2"
+              >
+                done
+              </label>
+            </div>
+          </div>
+        </div>
+         
+        <div
+          class="details-item-right"
+          style="display: none;"
+        >
+          <button
+            class="details-delete-button"
+            id="0"
+          >
+            	
+            Delete
+          
+          </button>
+           
+          <button
+            class="close-details-button"
+            id="0"
+            name="closeButton"
+          >
+            
+            Close
+          
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

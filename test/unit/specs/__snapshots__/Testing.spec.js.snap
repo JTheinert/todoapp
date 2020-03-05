@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing.vue renders correctly 1`] = `
+<div>
+  <span
+    class="count"
+  >
+    0
+  </span>
+   
+  <button>
+    Increment
+  </button>
+</div>
+`;

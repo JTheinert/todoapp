@@ -17,5 +17,6 @@ export default{
 color:green;
 justify-content: left;
 display: flex;
+font-size: 35px;
 }
 </style>

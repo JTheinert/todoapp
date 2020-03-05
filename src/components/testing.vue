@@ -1,6 +1,7 @@
+
 <template>
   <div>
-    <span clss="count">{{ count }}</span>
+    <span class="count">{{ count }}</span>
     <button @click="increment">Increment</button>
   </div>
 </template>

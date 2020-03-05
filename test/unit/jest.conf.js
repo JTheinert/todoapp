@@ -1,3 +1,4 @@
+/* eslint-disble no-undef */
 const path = require('path')
 
 module.exports = {
@@ -20,8 +21,9 @@ module.exports = {
   coverageDirectory: '<rootDir>/test/unit/coverage',
   collectCoverageFrom: [
     'src/**/*.{js,vue}',
-    '!src/main.js',
+    '!src/min.js',
     '!src/router/index.js',
     '!**/node_modules/**'
-  ]
+  ],
+  testURL: 'http://localhost'
 }

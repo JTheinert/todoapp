@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete.vue renders correctly 1`] = `
+<div
+  class="dialog-item"
+>
+  <h1
+    class="delete-text"
+  >
+    
+    Are you sure you want to delete this Todo ?
+  
+  </h1>
+   
+  <button
+    class="btn-style-yes"
+  >
+    
+    Yes
+  
+  </button>
+   
+  <button
+    class="btn-style"
+  >
+    no
+  </button>
+</div>
+`;
